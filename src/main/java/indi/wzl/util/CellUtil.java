@@ -3,9 +3,6 @@ package indi.wzl.util;
 import indi.wzl.annotation.HeadName;
 import indi.wzl.constant.FormulaType;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.xssf.usermodel.XSSFCell;
-
 import java.lang.reflect.Field;
 
 public class CellUtil {

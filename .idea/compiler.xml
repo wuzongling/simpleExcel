@@ -9,7 +9,7 @@
         <module name="poiSimpleExcel" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="poiSimpleExcel" target="1.8" />
     </bytecodeTargetLevel>
   </component>

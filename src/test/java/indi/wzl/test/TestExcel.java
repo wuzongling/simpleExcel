@@ -1,27 +1,18 @@
 package indi.wzl.test;
 
 import java.io.*;
-import java.lang.reflect.Method;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-
 import com.alibaba.fastjson.JSON;
-
-import indi.wzl.Exception.SimpleExcelException;
-import indi.wzl.annotation.ExcelCell;
 import indi.wzl.factory.SimpleExcelFactory;
-import indi.wzl.test.bean.ExcelTest;
 import indi.wzl.test.bean.SignUp;
-import indi.wzl.test.bean.Student;
-import indi.wzl.util.ClassUtil;
-import indi.wzl.util.HttpUtil;
+import org.junit.Test;
 
 import javax.swing.*;
+public class TestExcel{
 
-public class Test {
-
-	public static void export(){
+	@Test
+	public  void testexport1(){
 		try
 		{
 			OutputStream out = new FileOutputStream("D://b.xls");
@@ -74,9 +65,5 @@ public class Test {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	}
-
-	public static void main(String[] args) {
-		dynamicExport();
 	}
 }
