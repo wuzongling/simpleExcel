@@ -12,10 +12,10 @@ import javax.swing.*;
 public class TestExcel{
 
 	@Test
-	public  void testexport1(){
+	public  void testExport(){
 		try
 		{
-			OutputStream out = new FileOutputStream("D://b.xls");
+			OutputStream out = new FileOutputStream("D://b.xlsx");
 			List<SignUp> list = new ArrayList<>();
 			for (int i = 0; i<4;i++){
 				SignUp signUp = new SignUp();
@@ -32,9 +32,11 @@ public class TestExcel{
 			e.printStackTrace();
 		}
 	}
-	public static void parse(){
+
+	@Test
+	public void testParse(){
 		try {
-			List list = (List)SimpleExcelFactory.readExcel("C:\\Users\\allen\\Desktop\\活动导入模板 (1).xlsx", SignUp.class);
+			List list = (List)SimpleExcelFactory.readExcel("D://b.xlsx", SignUp.class);
 			//InputStream is = HttpUtil.download("http://7u2hs1.com1.z0.glb.clouddn.com/4bd0007cbe7c5290541042bf0e60aa35-excelTest.xlsx");
 			//List list = (List)SimpleExcelFactory.readXls(is, ExcelTest.class);
 			System.out.println(JSON.toJSON(list));
@@ -43,11 +45,11 @@ public class TestExcel{
 			e.printStackTrace();
 		}
 	}
-
-	public static void dynamicExport(){
+	@Test
+	public void testDynamicExport(){
 		try
 		{
-			OutputStream out = new FileOutputStream("D://b.xls");
+			OutputStream out = new FileOutputStream("D://b.xlsx");
 			List<SignUp> list = new ArrayList<>();
 			for (int i = 0; i<4;i++){
 				SignUp signUp = new SignUp();
