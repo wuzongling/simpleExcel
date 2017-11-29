@@ -62,7 +62,7 @@ public  void testExport(){
 ```
 
 ## 2.4 动态导出excel表格
-    动态导出通过fileName数组参数指定要导出的字段<br/>
+    动态导出通过fileName数组参数指定要导出的字段
     此时@ExcelCell注解失效，顺序由数组顺序决定
 ``` java
 public void testDynamicExport(){
