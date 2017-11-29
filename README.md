@@ -3,7 +3,7 @@ simpleExcel工具
 # 一、简介
 
 ## 1.1 概述
-simpleExcel工具是一款基于java做的一款java bean格式数据和excel表格之间相互转换的工具。
+simpleExcel工具是一款基于java做的excel解析工具，能够将java bean格式数据和excel表格进行相互转换。
 
 ## 1.2 特性
 * 1.使用方便快捷，整个过程只需1-2行代码。

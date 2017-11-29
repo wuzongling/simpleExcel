@@ -62,8 +62,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="97">
-                <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <first_editor relative-caret-position="110">
+                <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="65" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -1080,7 +1080,7 @@
       <workItem from="1511527810819" duration="352000" />
       <workItem from="1511773665746" duration="257000" />
       <workItem from="1511858611070" duration="1768000" />
-      <workItem from="1511922316811" duration="4926000" />
+      <workItem from="1511922316811" duration="5507000" />
     </task>
     <task id="LOCAL-00001" summary="pom修改">
       <created>1510475794055</created>
@@ -1124,7 +1124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511930229849</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="文档更新">
+      <created>1511934906265</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1511934906265</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1160,7 +1167,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18761000" />
+    <option name="totallyTimeSpent" value="19342000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1554,8 +1561,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="97">
-            <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <first_editor relative-caret-position="110">
+            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="65" />
             <folding />
           </first_editor>
           <second_editor />
