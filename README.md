@@ -28,11 +28,8 @@ simpleExcel工具是一款基于java做的一款java bean格式数据和excel表
 public void testParse(){
 		try {
 			List list = (List)SimpleExcelFactory.readExcel("D://b.xlsx", SignUp.class);
-			//InputStream is = HttpUtil.download("http://7u2hs1.com1.z0.glb.clouddn.com/4bd0007cbe7c5290541042bf0e60aa35-excelTest.xlsx");
-			//List list = (List)SimpleExcelFactory.readXls(is, ExcelTest.class);
 			System.out.println(JSON.toJSON(list));
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -51,7 +48,9 @@ public  void testExport(){
 				signUp.setName("123123");
 				list.add(signUp);
 			}
+			
 			SimpleExcelFactory.export(list,SignUp.class,out);
+			
 			out.close();
 			JOptionPane.showMessageDialog(null, "导出成功!");
 			System.out.println("excel导出成功！");
